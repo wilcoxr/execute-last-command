@@ -2,7 +2,7 @@
   "name": "execute-last-command",
   "displayName": "Execute Last Command",
   "description": "Execute the last terminal command as a Makefile target",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "wilcoxr",
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "engines": {
-    "vscode": "^1.95.0"
+    "vscode": "^1.93.0"
   },
   "categories": [
     "Other"
@@ -39,7 +39,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.95.0",
+    "@types/vscode": "^1.93.0",
     "@types/mocha": "^10.0.9",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.10.0",
