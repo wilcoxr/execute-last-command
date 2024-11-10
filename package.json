@@ -19,7 +19,27 @@
     "commands": [
       {
         "command": "extension.executeLastTerminalCommand",
-        "title": "Execute Last Command as Makefile Target"
+        "title": "Execute Last Command"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.executeLastTerminalCommand",
+        "key": "shift+enter",
+        "when": "terminalFocus",
+        "args": {
+          "modifiers": []
+        }
+      },
+      {
+        "command": "extension.executeLastTerminalCommand",
+        "key": "ctrl+shift+enter",
+        "when": "terminalFocus",
+        "args": {
+          "modifiers": [
+            "shift"
+          ]
+        }
       }
     ]
   },
